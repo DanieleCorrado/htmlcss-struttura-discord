@@ -1,5 +1,122 @@
+/* Regoele generali */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Regole header */
+
+header {
+  height: 350px;
+}
+
+/* Regole menù di navigazione */
+
+.main-nav {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px ;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 500px;
+}
+
+.button-style {
+  font-size: 15px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+/* Regole testo header */
+
+.description {
+  width: 80%;
+  margin: 80px auto;
+  line-height: 50px;
+  text-align: center;
+}
+
+.option {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Regole del main */
+
+main {
+  min-height: 500px;
+  background-color: brown;
+}
+
+/* Regole del footer  */
+
+footer {
+  min-height: 300px;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+.second-nav {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  list-style: none;
+}
+
+.social {
+  margin-top: 10px;
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+/* DEBUG */
+
+header {
+  background-color: violet;
+}
+
+.main-nav {
+  background-color: aquamarine;
+}
+
+.description {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: blueviolet;
+}
+
+.second-nav {
+  background-color: aqua;
+}
+
+.info-box {
+  background-color: brown;
 }
