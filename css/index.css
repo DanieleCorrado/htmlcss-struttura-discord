@@ -19,18 +19,15 @@ header {
 
 /* Regole menù di navigazione */
 
-.main-nav {
+.main-nav, .last-section {
   width: 80%;
   margin: 0 auto;
-  text-align: center;
-  padding-top: 10px ;
-  padding-left: 10px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-#logo {
+.logo {
   font-size: 30px;
 }
 
@@ -97,26 +94,24 @@ main {
 .card-description {
   width: 80%;
   margin: 80px auto;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .image-left {
-  order: -1;
+  order: -10;
 }
 
 .image-right {
   order: 10;
 }
 
-h5 {
-  margin: 20px;
-  font-size: large;
-  font-size: 20px;
-}
+
+
 
 .centered-text {
   text-align: center;
 }
+
 /* Regole del footer  */
 
 footer {
@@ -134,11 +129,16 @@ hr {
   margin: 0 auto;
   text-align: center;
   padding-top: 30px;
-  width: 80%;
   display: flex;
   justify-content: space-evenly;
+  align-items: baseline;
 }
 
+.section-title {
+  padding: 10px;
+  font-size: large;
+  font-size: 20px;
+}
 .link {
   list-style: none;
 }
@@ -156,7 +156,7 @@ header {
   background-color: violet;
 }
 
-.main-nav {
+.main-nav, .last-section {
   background-color: aquamarine;
 }
 
@@ -177,7 +177,6 @@ footer {
 }
 
 .card {
-  width: 80%;
   background-color: lightblue;
   border: 3px solid black;
 }
