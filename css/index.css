@@ -17,13 +17,19 @@ header {
   height: 350px;
 }
 
+.center {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-header, .flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Regole menù di navigazione */
 
 .main-nav, .last-section {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -31,31 +37,23 @@ header {
   font-size: 30px;
 }
 
-/* Regole  menu header*/
+/* Regole menu header*/
 
 .menu {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
   flex-basis: 350px;
 }
 
 /* Regole testo header */
 
 .description {
-  width: 80%;
   margin: 80px auto;
   line-height: 50px;
   text-align: center;
 }
 
-.option {
-  margin-top: 30px;
-  text-align: center;
-}
-
 .button {
-  width: 15%;
+  width: 20%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -73,18 +71,22 @@ main {
 
 /* Regole card presentazone prodotto */
 
-.card {
-  width: 80%;
-  margin: 0 auto;
+.flex-container {
   display: flex;
-  min-height: 500px;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  min-height: 500px;
+  text-align: center;
 }
 
-.card-column {
-  flex-direction: column;
-  padding-bottom: 20px;
+.last-info {
+  text-align: center;
+}
+
+.card-image {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .card-description {
@@ -96,6 +98,7 @@ main {
 .card-title {
   text-align: center;
 }
+
 .card-info {
   width: 90%;
   margin: 0 auto;
@@ -107,23 +110,8 @@ main {
   text-align: center;
 }
 
-.centered-text {
-  text-align: center;
-}
-
-.image {
-  width: 70%;
-}
-
-.image-left {
-  order: -10;
-}
-
-.image-right {
-  order: 10;
-}
-
 .section-title {
+  text-align: center;
   padding: 10px;
   font-size: large;
   font-size: 20px;
@@ -196,12 +184,12 @@ footer {
   border: 2px solid black;
 }
 
-.card {
+/* .card {
   background-color: lightblue;
   border: 3px solid black;
-}
+} */
 
-.image {
+.card-image {
 height: 300px;
 background-color: coral;
 border: 3px solid black;
@@ -211,4 +199,3 @@ border: 3px solid black;
   background-color: lightgreen;
   border: 3px solid black;
 }
-
